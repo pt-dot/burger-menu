@@ -18,6 +18,7 @@
 		2F0633A5211AAFFA008A83CF /* SideMenuTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0633A1211AAFF9008A83CF /* SideMenuTransition.swift */; };
 		2F0633A6211AAFFA008A83CF /* UISideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0633A2211AAFFA008A83CF /* UISideMenuNavigationController.swift */; };
 		2F0633A7211AAFFA008A83CF /* UITableViewVibrantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0633A3211AAFFA008A83CF /* UITableViewVibrantCell.swift */; };
+		2F0633A9211AC57C008A83CF /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0633A8211AC57C008A83CF /* MenuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		2F0633A1211AAFF9008A83CF /* SideMenuTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuTransition.swift; sourceTree = "<group>"; };
 		2F0633A2211AAFFA008A83CF /* UISideMenuNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISideMenuNavigationController.swift; sourceTree = "<group>"; };
 		2F0633A3211AAFFA008A83CF /* UITableViewVibrantCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewVibrantCell.swift; sourceTree = "<group>"; };
+		2F0633A8211AC57C008A83CF /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				2F063378211AAC16008A83CF /* Assets.xcassets */,
 				2F06337A211AAC16008A83CF /* LaunchScreen.storyboard */,
 				2F06337D211AAC16008A83CF /* Info.plist */,
+				2F0633A8211AC57C008A83CF /* MenuViewController.swift */,
 			);
 			path = "burger-menu";
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 				2F0633A5211AAFFA008A83CF /* SideMenuTransition.swift in Sources */,
 				2F063374211AAC14008A83CF /* ViewController.swift in Sources */,
 				2F0633A7211AAFFA008A83CF /* UITableViewVibrantCell.swift in Sources */,
+				2F0633A9211AC57C008A83CF /* MenuViewController.swift in Sources */,
 				2F0633A6211AAFFA008A83CF /* UISideMenuNavigationController.swift in Sources */,
 				2F0633A4211AAFFA008A83CF /* SideMenuManager.swift in Sources */,
 				2F063372211AAC14008A83CF /* AppDelegate.swift in Sources */,
