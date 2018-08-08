@@ -14,6 +14,10 @@
 		2F06337C211AAC16008A83CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F06337A211AAC16008A83CF /* LaunchScreen.storyboard */; };
 		2F063387211AAC16008A83CF /* burger_menuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F063386211AAC16008A83CF /* burger_menuTests.swift */; };
 		2F063392211AAC16008A83CF /* burger_menuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F063391211AAC16008A83CF /* burger_menuUITests.swift */; };
+		2F0633A4211AAFFA008A83CF /* SideMenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0633A0211AAFF9008A83CF /* SideMenuManager.swift */; };
+		2F0633A5211AAFFA008A83CF /* SideMenuTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0633A1211AAFF9008A83CF /* SideMenuTransition.swift */; };
+		2F0633A6211AAFFA008A83CF /* UISideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0633A2211AAFFA008A83CF /* UISideMenuNavigationController.swift */; };
+		2F0633A7211AAFFA008A83CF /* UITableViewVibrantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0633A3211AAFFA008A83CF /* UITableViewVibrantCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		2F06338D211AAC16008A83CF /* burger-menuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "burger-menuUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F063391211AAC16008A83CF /* burger_menuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = burger_menuUITests.swift; sourceTree = "<group>"; };
 		2F063393211AAC16008A83CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F0633A0211AAFF9008A83CF /* SideMenuManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuManager.swift; sourceTree = "<group>"; };
+		2F0633A1211AAFF9008A83CF /* SideMenuTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuTransition.swift; sourceTree = "<group>"; };
+		2F0633A2211AAFFA008A83CF /* UISideMenuNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISideMenuNavigationController.swift; sourceTree = "<group>"; };
+		2F0633A3211AAFFA008A83CF /* UITableViewVibrantCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewVibrantCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,7 @@
 		2F063370211AAC14008A83CF /* burger-menu */ = {
 			isa = PBXGroup;
 			children = (
+				2F06339F211AAFED008A83CF /* Slidemenu */,
 				2F063371211AAC14008A83CF /* AppDelegate.swift */,
 				2F063373211AAC14008A83CF /* ViewController.swift */,
 				2F063375211AAC14008A83CF /* Main.storyboard */,
@@ -123,6 +132,17 @@
 				2F063393211AAC16008A83CF /* Info.plist */,
 			);
 			path = "burger-menuUITests";
+			sourceTree = "<group>";
+		};
+		2F06339F211AAFED008A83CF /* Slidemenu */ = {
+			isa = PBXGroup;
+			children = (
+				2F0633A0211AAFF9008A83CF /* SideMenuManager.swift */,
+				2F0633A1211AAFF9008A83CF /* SideMenuTransition.swift */,
+				2F0633A2211AAFFA008A83CF /* UISideMenuNavigationController.swift */,
+				2F0633A3211AAFFA008A83CF /* UITableViewVibrantCell.swift */,
+			);
+			path = Slidemenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +276,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F0633A5211AAFFA008A83CF /* SideMenuTransition.swift in Sources */,
 				2F063374211AAC14008A83CF /* ViewController.swift in Sources */,
+				2F0633A7211AAFFA008A83CF /* UITableViewVibrantCell.swift in Sources */,
+				2F0633A6211AAFFA008A83CF /* UISideMenuNavigationController.swift in Sources */,
+				2F0633A4211AAFFA008A83CF /* SideMenuManager.swift in Sources */,
 				2F063372211AAC14008A83CF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
